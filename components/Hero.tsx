@@ -40,7 +40,7 @@ const Hero = () => {
             I relentlessly pursue the latest technological advancements and
             constantly strive to enhance my software development skills.
           </p>
-          <div className="flex mt-16 md:flex-row flex-col gap-x-8 justify-between items-center">
+          <div className="flex mt-16 flex-row gap-x-6 justify-between items-center">
             <a href="#about">
               <MagicButton
                 title="Show my work"
