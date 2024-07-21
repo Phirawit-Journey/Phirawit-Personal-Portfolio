@@ -1,8 +1,84 @@
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "About", link: "#tech" },
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
+];
+
+export const techs = [
+  {
+    id: 1,
+    img: "/techstacks/HTML5.svg",
+  },
+  {
+    id: 2,
+    img: "/techstacks/CSS3.svg",
+  },
+  {
+    id: 3,
+    img: "/techstacks/JavaScript.svg",
+  },
+  {
+    id: 4,
+    img: "/techstacks/TypeScript.svg",
+  },
+  {
+    id: 5,
+    img: "/techstacks/Tailwind CSS.svg",
+  },
+  {
+    id: 6,
+    img: "/techstacks/React.svg",
+  },
+  {
+    id: 7,
+    img: "/techstacks/Vite.js.svg",
+  },
+  {
+    id: 8,
+    img: "/techstacks/Node.js.svg",
+  },
+
+  {
+    id: 10,
+    img: "/techstacks/Go.svg",
+  },
+  {
+    id: 11,
+    img: "/techstacks/MongoDB.svg",
+  },
+  {
+    id: 12,
+    img: "/techstacks/MySQL.svg",
+  },
+  {
+    id: 13,
+    img: "/techstacks/PostgresSQL.svg",
+  },
+  {
+    id: 14,
+    img: "/techstacks/Postman.svg",
+  },
+  {
+    id: 15,
+    img: "/techstacks/GraphQL.svg",
+  },
+  {
+    id: 16,
+    img: "/techstacks/Kubernetes.svg",
+  },
+  {
+    id: 17,
+    img: "/techstacks/Docker.svg",
+  },
+  {
+    id: 18,
+    img: "/techstacks/Material UI.svg",
+  },
+  {
+    id: 19,
+    img: "/techstacks/Git.svg",
+  },
 ];
 
 export const gridItems = [
@@ -35,7 +111,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center",
-    img: "/b5.svg",
+    // img: "/b5.svg",
     spareImg: "",
   },
   {
@@ -43,30 +119,29 @@ export const gridItems = [
     title:
       "I prioritize teamwork to deliver results that exceed customer expectations.",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
 
-  {
-    id: 5,
-    // title: "Currently building a JS Animation library",
-    // description: "The Inside Scoop",
-    // className: "md:col-span-3 md:row-span-2",
-    // imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    // titleClassName: "justify-center md:justify-start lg:justify-center",
-    // img: "/b5.svg",
-    // spareImg: "/grid.svg",
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "/grid.svg",
-  },
+  // id: 5,
+  // // title: "Currently building a JS Animation library",
+  // // description: "The Inside Scoop",
+  // // className: "md:col-span-3 md:row-span-2",
+  // // imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+  // // titleClassName: "justify-center md:justify-start lg:justify-center",
+  // // img: "/b5.svg",
+  // // spareImg: "/grid.svg",
+  // title: "My tech stack",
+  // description: "I constantly try to improve",
+  // className: "md:col-span-3 md:row-span-2",
+  // imgClassName: "",
+  // titleClassName: "justify-center",
+  // img: "",
+  // spareImg: "/grid.svg",
+
   {
     id: 6,
     title: "Do you want to start a project together?",

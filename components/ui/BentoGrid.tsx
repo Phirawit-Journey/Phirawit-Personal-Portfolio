@@ -110,8 +110,8 @@ export const BentoGridItem = ({
 
           {id === 2 && <GlobeDemo />}
 
-          {id === 5 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+          {/* {id === 5 && (
+            <div className="flex gap-1 lg:gap-10 w-fit absolute -right-4 lg:-right-2">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-6">
                 {[
                   "HTML/CSS",
@@ -144,7 +144,7 @@ export const BentoGridItem = ({
                 )}
               </div>
             </div>
-          )}
+          )} */}
 
           {id === 6 && (
             <div className="mt-5 relative">
