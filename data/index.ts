@@ -79,6 +79,18 @@ export const techs = [
     id: 19,
     img: "/techstacks/Git.svg",
   },
+  {
+    id: 20,
+    img: "/techstacks/selenium.svg",
+  },
+  {
+    id: 21,
+    img: "/techstacks/cypress.svg",
+  },
+  {
+    id: 22,
+    img: "/techstacks/robotframework.svg",
+  },
 ];
 
 export const gridItems = [
